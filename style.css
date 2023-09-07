@@ -78,3 +78,9 @@ h1{  font-family: 'Poppins', sans-serif;}
     color: #91a89a;
 }
 
+ .card{
+position: relative;
+font-family: 'kanit',sans-serif;
+
+top:100px;
+ }

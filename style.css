@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:wght@800&display=swap');
+/* font-family: 'Kanit', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+body{
+    background: linear-gradient(180deg,#3a4452,#0a0a0a,#3a4452);
+}
+.item-center {
+    text-align: center;
+}
+h1{  font-family: 'Poppins', sans-serif;}
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.container {
+    background: rgb(73, 71, 71);
+    width: max-content;
+    margin: 0 auto;
+    border: 2px solid ;
+    border-radius: 8px;
+    padding: 10px;
+   font-family: 'kanit',sans-serif;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+
+.button {
+    width: 60px;
+    height: 60px;
+    margin: 0 3px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+   background-color: #8698b2;
+    cursor: pointer;
+    box-shadow: -5px -6px;
+    transition: all 0.1s ease-in-out; /* Add a smooth transition effect */
+}
+
+.button:active {
+    background-color: #63787bab; /* Change the background color when clicked */
+    box-shadow: 0 6px 4px rgba(30, 25, 25, 0.4); /* Add a box shadow when clicked */
+    box-shadow: -2px -3px;
+}
+.ylw{background-color: rgba(225, 225, 71, 0.897);}
+.htpnk{background-color: rgba(225, 71, 71, 0.897);}
+.row input {
+    width: 280px; /* Set a fixed width for the input element */
+    margin: 5px;
+    padding: 20px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 2em;
+    font-weight: 900;
+    background-color: rgb(17, 85, 62);
+    color: #91a89a;
+}
+
